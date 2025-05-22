@@ -16,3 +16,5 @@ This Digital Travel Journal will allow a user the record trips in a highly organ
 - **Transport Leg logger/tracker:** Keeps track of the mode of transport used on each part of the journey on a particular trip as well as the distance and the time taken
 - **Weather:** Specific to every location and tracks what kind of weather there was
 - **Activity:** Lets the user record what activities were undertaken at each location. Can be multiple per location.
+
+## 🧩 UML diagram
