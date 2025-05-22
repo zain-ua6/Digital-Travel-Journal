@@ -6,3 +6,13 @@ This Digital Travel Journal will allow a user the record trips in a highly organ
 
 ## 🗺️ Flowchart
 ![Flowchart for Digital Travel Journal](https://github.com/zain-ua6/Digital-Travel-Journal/blob/main/Digital%20Travel%20Journal%20Flowchart.jpg?raw=true)
+
+## 💡 Features
+- **Trip logger:** The user will be able to record trips in an organized fashion
+- **Trip status:** Will indicate whether a trip is being planned, ongoing or finished
+- **Checklist:** A to-do list combined with a list of necessary items needed for an upcoming trip
+- **Notes:** The user will be able to add notes to each trip containing thoughts, remarks or comments to refer back to later
+- **Expense Tracker:** Keep track of all the expenses spent on a trip, with details of where and when the balance was spent
+- **Transport Leg logger/tracker:** Keeps track of the mode of transport used on each part of the journey on a particular trip as well as the distance and the time taken
+- **Weather:** Specific to every location and tracks what kind of weather there was
+- **Activity:** Lets the user record what activities were undertaken at each location. Can be multiple per location.
