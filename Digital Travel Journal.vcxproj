@@ -129,6 +129,9 @@
   <ItemGroup>
     <ClCompile Include="Digital Travel Journal.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include=".gitignore" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
