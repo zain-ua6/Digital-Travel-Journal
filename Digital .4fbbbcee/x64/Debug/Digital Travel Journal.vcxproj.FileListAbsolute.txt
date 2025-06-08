@@ -1,3 +1,0 @@
-C:\Users\zain\VS programming\repos\Semester 2\Digital Travel Journal\x64\Debug\raylib.dll
-C:\Users\zain\VS programming\repos\Semester 2\Digital Travel Journal\x64\Debug\glfw3.dll
-C:\Users\zain\VS programming\repos\Semester 2\Digital Travel Journal\Digital .4fbbbcee\x64\Debug\Digital .96B73157.Up2Date
