@@ -3,8 +3,9 @@
 
 #include "String.h"
 #include "Date.h"
+#include "Trip entry.h"
 
-class Note {
+class Note : public TripEntry {
 	String title;
 	String content;
 	Date dateAdded;

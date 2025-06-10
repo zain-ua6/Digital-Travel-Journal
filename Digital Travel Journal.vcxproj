@@ -135,7 +135,10 @@
     <Text Include=".gitignore" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Date.h" />
     <ClInclude Include="dynamic.h" />
+    <ClInclude Include="Note.h" />
+    <ClInclude Include="raygui.h" />
     <ClInclude Include="String.h" />
     <ClInclude Include="Trip.h" />
     <ClInclude Include="User.h" />
