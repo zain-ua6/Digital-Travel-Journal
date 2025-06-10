@@ -1,5 +1,7 @@
 #include <iostream>
 #include <raylib.h>
+#define RAYGUI_IMPLEMENTAION
+#include "raygui.h"
 #include "dynamic.h"
 #include "String.h"
 

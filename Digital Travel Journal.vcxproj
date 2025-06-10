@@ -129,6 +129,7 @@
   <ItemGroup>
     <ClCompile Include="Digital Travel Journal.cpp" />
     <ClCompile Include="String.cpp" />
+    <ClCompile Include="Trip.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include=".gitignore" />
@@ -136,6 +137,8 @@
   <ItemGroup>
     <ClInclude Include="dynamic.h" />
     <ClInclude Include="String.h" />
+    <ClInclude Include="Trip.h" />
+    <ClInclude Include="User.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
