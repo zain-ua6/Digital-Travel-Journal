@@ -2,15 +2,15 @@
 #define EXPENSE_H
 
 #include "Trip entry.h"
-#include "String.h"
+#include <string>
 #include "Date.h"
 #include <fstream>
 using namespace std;
 
 class Expense : public TripEntry {
 	double amount;
-	String category;
-	String description;
+	string category;
+	string description;
 	Date date;
 
 private:

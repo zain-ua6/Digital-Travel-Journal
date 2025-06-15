@@ -1,4 +1,4 @@
-#include "String.h"
+#include <string>
 #include <iostream>
 using namespace std;
 
@@ -70,6 +70,16 @@ istream& operator>>(istream& in, String& s) {
     }
     s.str[s.len] = '\0';
     return in;
+}
+
+String::String(const char* s, int capacity) {
+    cap = capacity;
+    len = get_size(s);
+    str = new char[cap];
+    for (int i = 0; i < len; i++) {
+        str[i] = s[i];
+    }
+    str[len] = '\0';
 }
 
 String String::operator+(const String& s) const {
@@ -504,6 +514,11 @@ String String::regrow() {
 int String::length() const {
     return len;
 }
+
+const char* String::c_str() const {
+    return str;
+}
+
 
 void String::clear() {
     len = 0;

@@ -1,15 +1,15 @@
 #ifndef CheckListItem_H
 #define CheckListItem_H
 
-#include "String.h"
+#include <string>
 
 class CheckListItem {
-	String item;
+	string item;
 	bool isCompleted;
 private:
 	void markComplete();
 	bool getStatus();
-	String getItem();
+	string getItem();
 };
 
-#endif // !CheckListItem_H
+#endif

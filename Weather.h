@@ -1,18 +1,18 @@
 #ifndef WEATHER_H
 #define WEATHER_H
 
-#include "String.h"
+#include <string>
 #include <fstream>
 using namespace std;
 
 class Weather {
-	String date;
+	string date;
 	float temperature;
-	String summary;
+	string summary;
 private:
-	void display();
+	void displayWeather();
 	void saveToFile(ofstream&);
 	void loadFromFile(ifstream&);
 };
 
-#endif // !WEATHER_H
+#endif

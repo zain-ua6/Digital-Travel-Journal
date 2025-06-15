@@ -7,10 +7,10 @@
 #include "dynamic.h"
 
 class Location {
-	String city;
-	String country;
-	String arrivalDate;
-	String departureDate;
+	string city;
+	string country;
+	string arrivalDate;
+	string departureDate;
 	Weather* weather;
 	Dynamic_array<Activity*>activities;
 private:
@@ -21,4 +21,4 @@ private:
 	void loadFromFile(ifstream&);
 };
 
-#endif // !LOCATION_H
+#endif

@@ -1,20 +1,20 @@
 #ifndef TRANSPORTLEG_H
 #define TRANSPORTLEG_H
 
-#include "String.h"
+#include <string>
 #include <fstream>
 using namespace std;
 
 class TransportLeg {
-	String fromLocation;
-	String toLocation;
-	String transportMode;
+	string fromLocation;
+	string toLocation;
+	string transportMode;
 	float distance;
-	String travelTime;
+	string travelTime;
 private:
 	void display();
 	void saveToFile(ofstream&);
 	void loadFromFile(ifstream&);
 };
 
-#endif // !TRANSPORTLEG_H
+#endif

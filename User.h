@@ -1,13 +1,13 @@
 #ifndef USER_H
 #define USER_H
 
-#include "String.h"
+#include <string>
 #include "dynamic.h"
 #include "Trip.h"
 
 class User {
-	String username;
-	String email;
+	string username;
+	string email;
 	Dynamic_array<Trip*>trips;
 private:
 	void createTrip(Trip*);

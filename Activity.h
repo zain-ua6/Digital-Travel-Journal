@@ -2,13 +2,13 @@
 #define ACTIVITY_H
 
 #include "Trip entry.h"
-#include "String.h"
+#include <string>
 #include "Date.h"
 
 class Activity : public TripEntry {
-	String name;
-	String type;
-	String description;
+	string name;
+	string type;
+	string description;
 	Date date;
 };
 

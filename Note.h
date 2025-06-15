@@ -1,15 +1,19 @@
 #ifndef NOTE_H
 #define NOTE_H
 
-#include "String.h"
-#include "Date.h"
+#include <string>
 #include "Trip entry.h"
 
 class Note : public TripEntry {
-	String title;
-	String content;
-	Date dateAdded;
+	string title;
+	string content;
+	string dateAdded;
+public:
+	Note();
+	Note(string t, string c, string d );
+	string getTitle() const;
+	string getContent() const;
+	string getDate() const;
 };
-
 
 #endif

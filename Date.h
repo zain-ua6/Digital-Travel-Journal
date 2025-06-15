@@ -1,11 +1,11 @@
 #ifndef DATE_H
 #define DATE_H
 
-#include "String.h"
+#include <string>
 
 class Date {
 	int day;
-	String month;
+	string month;
 	long year;
 };
 

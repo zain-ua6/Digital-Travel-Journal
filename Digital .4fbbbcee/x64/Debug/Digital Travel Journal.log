@@ -1,6 +1,6 @@
 ﻿  Digital Travel Journal.cpp
-  String.cpp
-  Generating Code...
+C:\Users\zain\VS programming\repos\Semester 2\Digital Travel Journal\Digital Travel Journal.cpp(212,64): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\zain\VS programming\repos\Semester 2\Digital Travel Journal\Digital Travel Journal.cpp(213,63): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
   Digital Travel Journal.vcxproj -> C:\Users\zain\VS programming\repos\Semester 2\Digital Travel Journal\x64\Debug\Digital Travel Journal.exe
   'pwsh.exe' is not recognized as an internal or external command,
   operable program or batch file.

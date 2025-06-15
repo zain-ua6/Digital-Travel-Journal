@@ -3,8 +3,8 @@
 
 using namespace std;
 
-#include <stdexcept> // for out_of_range
-#include <utility>   // for swap
+#include <stdexcept> 
+#include <utility> 
 
 template <typename T> class Dynamic_array {
     T* arr;
